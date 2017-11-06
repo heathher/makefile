@@ -1,0 +1,2 @@
+all : lex.cpp make.cpp argv_parser.cpp dependency_tree.cpp file_stuff.cpp my_exceptions.cpp string_stuff.cpp syntax_analyzer.cpp template_builder.cpp 
+	g++ lex.cpp make.cpp argv_parser.cpp dependency_tree.cpp file_stuff.cpp my_exceptions.cpp string_stuff.cpp syntax_analyzer.cpp template_builder.cpp  -o out2
